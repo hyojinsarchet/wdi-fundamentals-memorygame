@@ -1,9 +1,20 @@
-// Create cards for the memory game.
+// Create card arrays for the memory game.
+var cards = ["queen", "queen", "king", "king"];
 
-var cardOne = "king";
-var cardTwo = "queen";
-var cardThree = "king";
-var cardFour = "queen";
+var cardsInPlay =[];
 
-console.log("User flipped " + cardOne);
-console.log("User flipped " + cardTwo);
+var cardOne = cards[0];
+
+cardsInPlay.push(cardOne);
+
+console.log("User flipped queen")
+
+var cardTwo = cards[1];
+
+cardsInPlay.push(cardTwo);
+
+if(cardOne === cardTwo) {
+  alert("You found a match");
+} else {
+  alert("Sorry, try again.");
+}
