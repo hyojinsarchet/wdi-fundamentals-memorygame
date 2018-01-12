@@ -96,7 +96,11 @@ footer {
     font-weight: 700;
 }
 
-/*nav {
-  background-color: yellow;
-  font-family: Arial, sans-serif;
+#reset {
+    color: black;
+    background-color: yellow;
+    border: 1px solid #0a3c59;
+    padding: 10px 25px;
+    border-radius: 17px;
+    font-size: 18px;
 }
